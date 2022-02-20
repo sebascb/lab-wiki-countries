@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  background-color: blue;
+}
+.navLetter {
+  color: white;
+}
+
+.ulList {
+  font-size: 1rem;
+}
+
+.detailLetter {
+  color: blue;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.linkdetail {
+  text-decoration: none;
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 2px;
+  padding: 8px 20px;
+  letter-spacing: 0.1rem;
+}
