@@ -22,8 +22,11 @@ function CountriesList() {
 		<div>
 			<ul>
 				{countries.map((country) => (
-					<Link to={`/${country.alpha3Code}`}>
-						<div>
+					<Link to={`/${country.alpha3Code}`}> 
+						<div className='divList'>
+							<img
+								src={`https://flagpedia.net/data/flags/icon/72x54/${country.alpha2Code.toLowerCase()}.png`} alt="flag"
+							/>
 							<h1 className='ulList'>{country.name.official}</h1>
 						</div>
 					</Link>

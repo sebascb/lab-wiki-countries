@@ -11,13 +11,12 @@ function CountryDetails() {
 
   return (
    <div>
-     <h1 className="detailLetter">Country Detail</h1>
      {foundCountry && (
        <>
-         <h2>{foundCountry.name.official}</h2>
          <img
            src={`https://flagpedia.net/data/flags/icon/72x54/${foundCountry.alpha2Code.toLowerCase()}.png`} alt="flag"
          />
+         <h2>{foundCountry.name.official}</h2>
          <h4>Capital: {foundCountry.capital}</h4>
          <h4>Area: {foundCountry.area}<sup>2</sup></h4>
          <div>

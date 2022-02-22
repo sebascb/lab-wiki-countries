@@ -46,12 +46,17 @@ nav {
 
 .ulList {
   font-size: 1rem;
+  color: black;
+  margin-top: 0.7rem;
+}
+.divList {
+  border: 1px solid grey;
+  padding: 20px 20px;
 }
 
-.detailLetter {
-  color: blue;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+img {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 .linkdetail {
   text-decoration: none;
@@ -60,4 +65,9 @@ nav {
   border-radius: 2px;
   padding: 8px 20px;
   letter-spacing: 0.1rem;
+}
+
+h4 {
+  border-bottom: 1px solid grey;
+  padding: 10px 20px;
 }
